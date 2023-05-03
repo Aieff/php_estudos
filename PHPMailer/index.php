@@ -38,7 +38,7 @@ try {
     }
 
 } catch (Exception $e) {
-    echo "Erro ao enviar mensagem {$mail ->ErrorInfo}";
+    echo "Erro ao enviar mensagem {$mail->ErrorInfo}";
 }
 
 // Para o envio de email funcionar você deve ativar o acesso a app menos seguros em seu email que foi configurado como host

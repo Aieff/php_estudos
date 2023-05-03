@@ -1,5 +1,7 @@
 <?php 
 
+//PHP POO (Porgramação Orientada a Objetos)
+
 class pessoa {
     function falar() {
         echo "Olá eu sou um objeto <br>";
@@ -9,6 +11,7 @@ class pessoa {
     }
 }
 
+// " -> " ele indica a ação (Chama a ação) ao meu objeto.
 $gabriel = new pessoa;
 
 $gabriel->falar();
